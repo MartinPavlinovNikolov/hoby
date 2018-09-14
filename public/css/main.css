@@ -1,0 +1,112 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* colors of the project */
+.color-1 {
+  color: #f7931d;
+}
+.color-2 {
+  color: #8b8b8b;
+}
+.color-3 {
+  color: #ffffff;
+}
+.color-4 {
+  color: #707070;
+}
+.color-5 {
+  color: #939598;
+}
+.color-6 {
+  color: #f5f5f5;
+}
+.color-7 {
+  color: #000000;
+}
+.bg-color-1 {
+  background-color: #f7931d;
+}
+.bg-color-2 {
+  background-color: #8b8b8b;
+}
+.bg-color-3 {
+  background-color: #ffffff;
+}
+.bg-color-4 {
+  background-color: #707070;
+}
+.bg-color-5 {
+  background-color: #939598;
+}
+.bg-color-6 {
+  background-color: #f5f5f5;
+}
+.bg-color-7 {
+  background-color: #000000;
+}
+
+/* Nav top part */
+#nav-top span {
+  font-size: .7rem;
+  height: 17px;
+  font-family: Montserrat;
+  font-weight: 400;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+/* Nav bottom part */
+#nav-bottom {
+  height: 160px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+}
+#nav-bottom img {
+  height: 160px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+#search {
+  height: 50px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+#nav-bottom p {
+  display: inline-block;
+  height: 48px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  font-family: Montserrat;
+  font-size: .7rem;
+  font-weight: 600;
+}
