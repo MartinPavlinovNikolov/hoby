@@ -10,49 +10,44 @@
         <!-- Fonts -->
 
         <!-- Bootstrap-v4.1.3 -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
 
         <!-- Custom Styles -->
         <link rel="stylesheet" type="text/css" href="{{ asset('css/main.css') }}">
         
     </head>
     <body>
-        <div class="container-fluid bg-color-3">
-            <header>
-                <nav>
-                    <div id="nav-top" class="row bg-color-6">
-                        <div class="col offset-2">
-                            <ul>
-                                <li class="d-inline-block"><span class="color-1">Адрес: </span><span class="color-4">гр. Габрово, бул. Арсеналски 113</span></li>
-                                <li class="d-inline-block"><span class="color-1">Телефон: </span><span class="color-4">+359 478 213, +359 478 213</span></li>
-                                <li class="d-inline-block"><span class="color-1">Е-мeйл: </span><span class="color-4">hobby@info.com</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div id="nav-bottom" class="row bg-color-3">
-                        <div class="col-2 offset-2">
-                            <img src="{{ asset('images/hoby-logo.png') }}" alt="logo">
-                        </div>
-                        <div class="col-3">
-                            <input id="search" type="text">
-                        </div>
-                        <div class="col-2">
-                            <p>
-                                <span class="color-1">Свържете се с нас:</span>
-                                <span class="color-4">+359 478 213 / +359 478 213</span>
-                            </p>
-                        </div>
-                        <div class="col-1">
-                            <span>
-                            F
-                            </span>
-                        </div>
-                    </div>
-                </nav>
-            </header>
+    <!--
+    screen resolution 1366 X 768
+    psd resolution 1936 X ?
+    koeficient: 1366/1936 = 0.7055785124 for all elements width-dimentions
+    -->
+        <div id="wrapper">
+            <!-- Nav-top START -->
+            <div id="nav-top">
+                <span class="nav-top-address"><span class="nav-top-address-main">Адрес: </span>гр. Габрово, бул. Арсеналски 113</span>
+                <span class="nav-top-email">
+                    <span class="nav-top-address-main">Е-майл: </span>
+                    <a href="mailto:hobby@info.com">hobby@info.com</a>
+                </span>
+                <span class="nav-top-phone">
+                    <span class="nav-top-phone-main">Телефон: </span>
+                    <a href="tel:+359 478 213"> +359 478 213</a>,<a href="tel:+359 478 213"> +359 478 213</a>
+                </span>
+            </div><!-- Nav-top END -->
+
+            <!-- Nav-bottom START -->
+            <div id="nav-bottom">
+                <div id="nav-bottom-logo"></div><div id="search-wrapper"><input id="search-input" type="search" placeholder="Търсене по Идентификационен номер"><button id="search-button">&nbsp;</button>
+                </div>
+                <p><span class="nav-bottom-contacts"><span class="nav-bottom-contacts-main">Свържете се с нас: </span><br>+359 478 213 / +359 478 213</span></p>
+                <div id="icon-facebook">&nbsp;</div>
+            </div><!-- Nav-bottom END -->
+            
             <main>
                 
             </main>
+
             <footer>
                 
             </footer>
